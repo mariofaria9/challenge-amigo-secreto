@@ -8,11 +8,19 @@
     --color-white: #FFFFFF;
 }
 
+.button-add {
+    margin-right: 40px; /* Adiciona um espaçamento de 40px acima da lista */
+}
+
 /* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.botao-apagar {
+    margin-top: 40px; /* Adiciona um espaçamento de 40px acima do botão */
 }
 
 body {
