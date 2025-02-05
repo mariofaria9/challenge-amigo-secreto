@@ -4,6 +4,9 @@ let listaAmigos = [];
 
 function adicionarAmigo(){
     let nome = document.querySelector('input').value;
+    if (nome === '') {
+        alert("Por favor, insira um nome!");
+    }
     if(listaAmigos.includes(nome, [0])){
         alert("Este nome já existe, favor inserir outro amigo.");
     } else{
