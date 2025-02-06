@@ -59,7 +59,9 @@ function sortearAmigo() {
     } else {
         let numeroMaximo = listaAmigos.length;
         let sorteado = Math.floor(Math.random() * numeroMaximo);
-        alert("O seu amigo secreto é " + listaAmigos[sorteado]);
+        let nomesorteado = listaAmigos[sorteado];
+        let lista = document.getElementById('listaAmigos');
+        lista.innerHTML = "O seu amigo secreto é " + nomesorteado;
         listaAmigos.splice(sorteado, 1);
         
         if (listaAmigos.length === 0) {
