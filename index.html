@@ -21,7 +21,7 @@
             <h2 class="section-title">Digite o nome dos seus amigos para adicioná-los e depois clique no botão "Adicionar"</h2>
             <h2 class="section-title">Após criar sua lista de amigos, clique no botão "Sortear amigo", para ver seu amigo secreto</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome para adicionar">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
                 <ul id="listaAmigos" class="lista-amigos"></ul>
             </div>
@@ -35,7 +35,16 @@
                     Sortear amigo
                 </button>
             </div>
-            <button class="botao-apagar" onclick="apagarLista()">Apagar Lista</button>
+
+            <div class="input-wrapper">
+                <input type="text" id="inputNomeApagar" class="input-name" placeholder="Insira o nome para apagar">
+                <button class="button-add" onclick="apagarNome()">Apagar Nome</button>
+            </div>
+
+            <div class="button-container">
+                <button class="button-draw" onclick="apagarLista()">Apagar Lista</button>
+            </div>
+
         </section>
     </main>
 
