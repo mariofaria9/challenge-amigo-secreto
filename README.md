@@ -5,7 +5,7 @@ First of all I created the repository in Github. After, I created the local repo
 
 Started day 1 creating 4 functions and the main List:
 
-- List : declared "listaAmigos" as an array
+- List : declared "listaAmigos" as an array;
 - adicionarAmigo() : adds a name into a list;
 - limparCampo() : cleans up the input field;
 - exibirNome(nome) : shows the name you input at buttons right side;
