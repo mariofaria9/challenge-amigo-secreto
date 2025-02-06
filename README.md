@@ -41,7 +41,8 @@ Print overview:
 ![image](https://github.com/user-attachments/assets/cbd15087-025c-40d7-8781-1897aa9145b8)
 
 Special Notes:
-After testing all the functions and adjusting the HTML and CSS to fit perfectly, it was commited to Github.
+After testing all the functions and adjusting the HTML and CSS to fit perfectly, it was commited to Github. 
+The Project was deployed at Github pages on february, 6, 2025. Follows its link: https://mariofaria9.github.io/challenge-amigo-secreto/
 
 It was a great and rewarding journey with lots of learning. Now it appears that the preparation to a developer career started the best way. And it's just only the basics of development. Thanks Alura and Oracle to give me this opportunity.
 
